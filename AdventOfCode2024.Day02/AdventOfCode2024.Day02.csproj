@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>AdventOfCode2024.Day02</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Task.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Task.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AdventOfCode2024.Interfaces\AdventOfCode2024.Interfaces.csproj" />
+    </ItemGroup>
+
+</Project>
